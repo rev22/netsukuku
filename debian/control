@@ -1,0 +1,15 @@
+Source: netsukuku
+Section: net
+Priority: extra
+Maintainer: Michele Bini <michele.bini@gmail.com>
+Build-Depends: debhelper (>= 7), autotools-dev, libgmp3-dev, libssl-dev, zlib1g-dev
+Standards-Version: 3.8.3
+Homepage: http://netsukuku.freaknet.org/
+
+Package: netsukuku
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer routing system
+ Netsukuku is the name of an experimental peer-to-peer routing system, developed by the FreakNet MediaLab (Italy), born to build up a distributed network, fully independent but not necessarily separated from Internet, without the support of any server, ISP and no central authority.
+ It does not rely on a backbone router, or on any routing equipment other than normal network interface cards.
+ It is designed to use minimal computing resources.

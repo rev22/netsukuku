@@ -1,0 +1,39 @@
+This package was debianized by Michele Bini <michele.bini@gmail.com> on
+Thu, 01 Apr 2010 10:57:47 +0200.
+
+It was downloaded from <http://netsukuku.freaknet.org/files/>
+
+Main authors and maintainers:
+
+    Andrea Lo Pumo aka AlpT <alpt@netsukuku.org>
+
+
+Contributors (in chronological order of initial contribution):
+
+    Andrea Leofreddi <andrea.leofreddi@gmail.com> wrote the first implementation
+of the DNS wrapper code (dns_pkt.cpp, dns_rendian.h, dns_utils.h).  
+
+    Enzo Nicosia (Katolaz) <katolaz@netsukuku.org> wrote the files needed to use
+Automake/Autoconf. (Makefile.am configure.ac, src/Makefile.am,
+src/man/Makefile.am).
+
+    Federico Tomassini (Efphe) <efphe@netsukuku.org> wrote andns, which provides
+DNS compatibility for the ANDNA system. He also wrote the interface to the
+libiptc. (andns* ntkresolv.* dnslib.[ch] mark.[ch] libiptc/*)
+It was downloaded from <http://netsukuku.freaknet.org/files/>
+
+License:
+
+    GNU GENERAL PUBLIC LICENSE Version 2
+
+The license text can be found in the file /usr/share/common-licenses/GPL-2
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Michele Bini <michele.bini@gmail.com>
+
+and is licensed under the GPL version 3, 
+see `/usr/share/common-licenses/GPL-3'.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
