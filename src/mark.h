@@ -3,9 +3,9 @@
 
 #include "libiptc/libiptc.h"
 #include <linux/netfilter/nf_conntrack_common.h>
-#include <linux/netfilter_ipv4/ipt_conntrack.h>
-#include <linux/netfilter_ipv4/ipt_connmark.h>
-#include <linux/netfilter_ipv4/ipt_CONNMARK.h>
+#include "libiptc/ipt_conntrack.h"
+#include "libiptc/ipt_connmark.h"
+#include "libiptc/ipt_CONNMARK.h"
 
 #define MANGLE_TABLE		"mangle"
 #define FILTER_TABLE		"filter"
